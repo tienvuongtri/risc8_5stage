@@ -1,0 +1,15 @@
+# Bỏ qua các thư mục tạm và kết quả chạy của Vivado
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+.Xil/
+
+# Bỏ qua các file log và journal của Vivado
+*.jou
+*.log
+*.str
+*.bak
+*.pb
+*.wdb

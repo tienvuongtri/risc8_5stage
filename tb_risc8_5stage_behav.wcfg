@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_risc8_5stage_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_risc8_5stage" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="95.701 ns"></ZoomEndTime>
+      <Cursor1Time time="530.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="245"></NameColumnWidth>
+      <ValueColumnWidth column_width="117"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/tb_risc8_5stage/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_5stage/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_5stage/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_5stage/flags_out" type="array">
+      <obj_property name="ElementShortName">flags_out[1:0]</obj_property>
+      <obj_property name="ObjectShortName">flags_out[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_5stage/instr_done" type="logic">
+      <obj_property name="ElementShortName">instr_done</obj_property>
+      <obj_property name="ObjectShortName">instr_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_5stage/dut/ifid_valid" type="logic">
+      <obj_property name="ElementShortName">ifid_valid</obj_property>
+      <obj_property name="ObjectShortName">ifid_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_5stage/dut/ifid_pc" type="array">
+      <obj_property name="ElementShortName">ifid_pc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ifid_pc[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_5stage/dut/ifid_instruction" type="array">
+      <obj_property name="ElementShortName">ifid_instruction[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ifid_instruction[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_5stage/dut/idex_valid" type="logic">
+      <obj_property name="ElementShortName">idex_valid</obj_property>
+      <obj_property name="ObjectShortName">idex_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_5stage/dut/idex_pc" type="array">
+      <obj_property name="ElementShortName">idex_pc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">idex_pc[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_5stage/dut/exmem_pc" type="array">
+      <obj_property name="ElementShortName">exmem_pc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">exmem_pc[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_5stage/dut/exmem_valid" type="logic">
+      <obj_property name="ElementShortName">exmem_valid</obj_property>
+      <obj_property name="ObjectShortName">exmem_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_5stage/dut/memwb_valid" type="logic">
+      <obj_property name="ElementShortName">memwb_valid</obj_property>
+      <obj_property name="ObjectShortName">memwb_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_5stage/dut/memwb_pc" type="array">
+      <obj_property name="ElementShortName">memwb_pc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">memwb_pc[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_5stage/dut/instr_done" type="logic">
+      <obj_property name="ElementShortName">instr_done</obj_property>
+      <obj_property name="ObjectShortName">instr_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_5stage/dut/stall" type="logic">
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_5stage/dut/branch_taken" type="logic">
+      <obj_property name="ElementShortName">branch_taken</obj_property>
+      <obj_property name="ObjectShortName">branch_taken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_5stage/halted" type="logic">
+      <obj_property name="ElementShortName">halted</obj_property>
+      <obj_property name="ObjectShortName">halted</obj_property>
+   </wvobject>
+</wave_config>
